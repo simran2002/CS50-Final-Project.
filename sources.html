@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Sources</title>
+        <script>
+          function like()
+          {
+            var likeButton = document.getElementById("likeButton");
+            if (likeButton.value==="Liked")
+            {
+                alert('Already Liked. Thanks Again!');
+            }
+            else
+            {
+                likeButton.value="Liked";
+                alert('Thank you');
+            }
+          }
+        </script>
+    </head>
+    <body class='body'>
+        <div class="scrollmenu">
+          <a href="index.html">Home</a>
+          <a href="types.html">Types of YOGA</a>
+          <a href="ashtanga.html">ASHTANGA : Eight Limbs of Yoga</a>
+          <a href="benefits.html">Benefits</a>
+          <a href="sources.html">Sources</a>
+        </div>
+        <h1>
+          <b>Sources</b>
+        </h1>
+        <pre class="parasize" style="color:white;">
+            <a href="https://www.wikipedia.org/">Wikipedia</a>
+            <a href="https://www.yogajournal.com/lifestyle/count-yoga-38-ways-yoga-keeps-fit">Yoga Journal</a>
+            <a href="https://iymv.org/wp-content/uploads/2019/02/8_limbs_of_yoga.gif">Iyengar Yoga Maida Vale London</a>
+        </pre>
+        <!giving vertical spaces>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <h3 class="alignc wcolor">
+            If you like my work, then hit the button below
+        </h3>
+        <input type="button" class="button center" onclick="like();" id="likeButton" value="Like&#128147">
+        <h5 class="alignr wcolor">
+            Copyright(2020) <span>&#169;</span> SIMRAN. All rights reserved.
+        </h5>
+    </body>
+</html>

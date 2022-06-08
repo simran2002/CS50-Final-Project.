@@ -1,0 +1,85 @@
+.alignl
+{
+    text-align:left;
+}
+.alignc
+{
+    text-align:center;
+}
+.alignr
+{
+    text-align:right;
+}
+.floatl
+{
+    float:left;
+}
+.floatr
+{
+    float:right;
+}
+.floatc
+{
+    float:inherit;
+}
+.clearfix
+{
+    clear:both;
+}
+.parasize
+{
+    font-size:24px;
+}
+.hsize
+{
+    font-size:35px;
+}
+.scrollmenu
+{
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+}
+.scrollmenu a
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollmenu a:hover
+{
+  background-color: grey;
+}
+.body
+{
+  background-image: url('yoga1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1400px 650px;
+}
+.marginb
+{
+    margin-bottom:2cm;
+}
+.marginl
+{
+    margin-right:40px;
+}
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button
+{
+height: 50px;
+width: 100px;
+}
+.wcolor
+{
+    color:white;
+}
